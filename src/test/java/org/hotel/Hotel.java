@@ -61,6 +61,7 @@ public class Hotel extends BaseClass {
 		Thread.sleep(5000);
 		BookingConfirmation bc = new BookingConfirmation();
 		getText(bc.getOrderNo());
+		System.out.println("Muruga");
 
 	}
 
